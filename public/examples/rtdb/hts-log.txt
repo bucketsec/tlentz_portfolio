@@ -1,0 +1,12 @@
+HTTrack3.49-2 launched on Sun, 17 Nov 2019 10:13:48 at rtdb.spokesman.com
+(httrack rtdb.spokesman.com -O /Users/timothylentz/Downloads/rtdb )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:14:20	Warning: 	Retry after error -4 (No data (connection closed)) at link rtdb.spokesman.com/static/js/main.d245f09a.chunk.js (from rtdb.spokesman.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 33 seconds : 8 links scanned, 6 files written (411199 bytes overall) [413610 bytes received at 12533 bytes/sec], 2.6 requests per connection
+(No errors, 1 warnings, 0 messages)

@@ -1,0 +1,15 @@
+HTTrack3.49-2 launched on Sun, 17 Nov 2019 13:40:05 at www.mattsexpresscarwash.com
+(httrack www.mattsexpresscarwash.com -O /Users/timothylentz/Downloads/matts )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:40:07	Warning: 	Note: due to www.mattsexpresscarwash.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+13:41:10	Error: 	"Method Not Allowed" (405) at link www.mattsexpresscarwash.com/xmlrpc.php (from www.mattsexpresscarwash.com/)
+13:42:02	Warning: 	Moved Temporarily for www.mattsexpresscarwash.com/?p=152
+13:42:02	Warning: 	File has moved from www.mattsexpresscarwash.com/?p=152 to http://www.mattsexpresscarwash.com/152-2/
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 1 seconds : 48 links scanned, 45 files written (2911767 bytes overall) [2856443 bytes received at 23606 bytes/sec], 91436 bytes transferred using HTTP compression in 2 files, ratio 21%, 1.6 requests per connection
+(1 errors, 3 warnings, 0 messages)

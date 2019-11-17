@@ -1,0 +1,22 @@
+{
+  "name": "hireme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "file-loader": "^4.2.0",
+    "image-trace-loader": "^0.1.0",
+    "next": "9.1.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.3",
+    "node-sass": "^4.13.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-visibility-sensor": "^5.1.1"
+  }
+}

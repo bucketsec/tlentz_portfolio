@@ -1,0 +1,8 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+10:13:49	149/149	---M--	404	error ('Not%20Found')	text/html	date:Sun,%2017%20Nov%202019%2018:13:48%20GMT	http://rtdb.spokesman.com/robots.txt		(from )
+10:13:49	2167/2167	---M--	200	added ('OK')	text/html	etag:W/%22877-16e1d92d380%22	http://rtdb.spokesman.com/	/Users/timothylentz/Downloads/rtdb/rtdb.spokesman.com/index.html	(from )
+10:13:50	3870/3870	---M--	200	added ('OK')	image/x-icon	etag:W/%22f1e-16e1d92bff8%22	http://rtdb.spokesman.com/favicon.ico	/Users/timothylentz/Downloads/rtdb/rtdb.spokesman.com/favicon.ico	(from http://rtdb.spokesman.com/)
+10:13:51	306/306	---M--	200	added ('OK')	application/json	etag:W/%22132-16e1d92bff8%22	http://rtdb.spokesman.com/manifest.json	/Users/timothylentz/Downloads/rtdb/rtdb.spokesman.com/manifest.json	(from http://rtdb.spokesman.com/)
+10:13:52	2367/2367	---M--	200	added ('OK')	text/css	etag:W/%2293f-16e1d92d380%22	http://rtdb.spokesman.com/static/css/main.8a7be7a6.chunk.css	/Users/timothylentz/Downloads/rtdb/rtdb.spokesman.com/static/css/main.8a7be7a6.chunk.css	(from http://rtdb.spokesman.com/)
+10:14:20	391694/391694	---M--	200	added ('OK')	application/javascript	etag:W/%225fa0e-16e1d92d380%22	http://rtdb.spokesman.com/static/js/2.3f5e93a5.chunk.js	/Users/timothylentz/Downloads/rtdb/rtdb.spokesman.com/static/js/2.3f5e93a5.chunk.js	(from http://rtdb.spokesman.com/)
+10:14:21	10795/10795	---M--	200	added ('OK')	application/javascript	etag:W/%222a2b-16e1d92d380%22	http://rtdb.spokesman.com/static/js/main.d245f09a.chunk.js	/Users/timothylentz/Downloads/rtdb/rtdb.spokesman.com/static/js/main.d245f09a.chunk.js	(from http://rtdb.spokesman.com/)
