@@ -5,12 +5,10 @@ const Who = () => {
 
   let [lightBoxImg, useLightBoxImg] = useState(null);
 
-  let lightImage = null;
-
-  const useLightBoxImgHandler = (item) => {
+  const useLightBoxImgHandler = item => {
     console.log(item)
     useLightBoxImg(item)
-    lightImage = require(`../assets/${lightBoxImg}`);
+    // lightImage = require(`../assets/${lightBoxImg}`);
   };
 
   const galleryData = [
@@ -38,7 +36,7 @@ const Who = () => {
 
   return(
     <>
-      <section className={`about__container mw7 center ph2 pv5`}>
+      <section className={`about__container mw7 center ph3 pv5`}>
         <h2 className={`f2 tc w-100 mb4`}>
           Who am I?
         </h2>
@@ -77,9 +75,9 @@ const Who = () => {
         <h2 className={`f2 tc w-100 pv5 white`}>
           Photos
         </h2>
-        <div className={`gallery__container mw7 center ph2 pb5`}>
+        <div className={`gallery__container mw7 center ph3 pb5`}>
           {galleryData.map((item, index) => (
-            <div key={index} className={`gallery__item`} onClick={item => useLightBoxImgHandler(item)}>
+            <div key={index} className={`gallery__item`} onClick={() => useLightBoxImgHandler(item)}>
               <LazyImg imgSrc={item} />
             </div>
           ))}
@@ -87,7 +85,7 @@ const Who = () => {
       </section>
 
       <section className={`gallery__lightbox ${lightBoxImg ? 'gallery__lightbox__show' : 'gallery__lightbox__hide'}`}>
-        {lightImage && <img src={lightImage} />}
+        {lightBoxImg && <img src={require(`../assets/${lightBoxImg}?src`)} />}
         <button className={`f3 fw8 white`} style={{zIndex: 101, position: 'fixed', top: 50, right: 50}} onClick={() => useLightBoxImg(null)}>X</button>
       </section>
 
@@ -100,9 +98,17 @@ const Who = () => {
           background-color: rgba(0,0,0.5);
           top: 0;
           right: 0;
+          padding: 2em;
+        }
+        @media all and (max-width: 60em){
+          .gallery__lightbox{
+            width: 100vw;
+          }
         }
         .gallery__lightbox__show{
-          display: block;
+            justify-content: center;
+            align-items: center;
+            display: flex;
         }
         .gallery__lightbox__hide{
           display: none;

@@ -94,8 +94,8 @@ const Home = () => (
       </div>
     </section>
 
-    <section className={`w-100 flex justify-center items-center flex-column pv5`}>
-      <h3 className={`f3 mb4`}>
+    <section className={`w-100 flex justify-center items-center flex-column pv5 ph3`}>
+      <h3 className={`f3 mb4 tc`}>
         So you're ready to meet me? GREAT!
       </h3>
       <a href="/contact" className={`hover--icon--toggle white flex justify-center items-center`} style={{backgroundColor: '#f26823', width: `200px`, height: 50}}>

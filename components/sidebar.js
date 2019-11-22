@@ -16,28 +16,28 @@ const Sidebar = () => {
             <nav role={"navigation"} className={`${mobileMenu ? 'mobile__menu__open' : 'mobile__menu__closed'} mobile__menu`}>
                 <ul>
                     <Link activeClassName={`sidebar__nav__active`} href={'/'} >
-                        <li className={`sidebar__nav__item sidebar__nav__item__overview`}>
+                        <li onClick={() => useMobileMenu(false)} className={`sidebar__nav__item sidebar__nav__item__overview`}>
                             <a>
                                 OVERVIEW
                             </a>
                         </li>
                     </Link>
                     <Link activeClassName={`sidebar__nav__active`} href={'/whoiam'} >
-                        <li className={`sidebar__nav__item sidebar__nav__item__who`}>
+                        <li onClick={() => useMobileMenu(false)} className={`sidebar__nav__item sidebar__nav__item__who`}>
                             <a>
                                 WHO I AM
                             </a>
                         </li>
                     </Link>
                     <Link activeClassName={`sidebar__nav__active`} href={'/portfolio'} >
-                        <li className={`sidebar__nav__item sidebar__nav__item__portfolio`}>
+                        <li onClick={() => useMobileMenu(false)} className={`sidebar__nav__item sidebar__nav__item__portfolio`}>
                             <a>
                                 PORTFOLIO
                             </a>
                         </li>
                     </Link>
                     <Link activeClassName={`sidebar__nav__active`} href={'/contact'} >
-                        <li className={`sidebar__nav__item sidebar__nav__item__contact`}>
+                        <li onClick={() => useMobileMenu(false)} className={`sidebar__nav__item sidebar__nav__item__contact`}>
                             <a>
                                 CONTACT
                             </a>

@@ -134,7 +134,7 @@ export default () => {
           <p>
             Developed with NextJS and Tachyons.
           </p>
-          <a href="/rtdb.jpg" className={`hover--icon--toggle white flex justify-center items-center mt3`} style={{backgroundColor: '#f26823', width: 140, height: 50}}>
+          <a href="https://github.com/bucketsec/tlentz_portfolio" className={`hover--icon--toggle white flex justify-center items-center mt3`} style={{backgroundColor: '#f26823', width: 140, height: 50}}>
             <h2 className={`f4`}>Source </h2><i className="hover--icon fa fa-chevron-right f3 ml2" aria-hidden="true"></i>
           </a>
         </div>
